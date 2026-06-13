@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python live_updater.py"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3

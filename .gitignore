@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Trained model artifacts
+models/xgb_model.json
+models/scaler.pkl
+models/__pycache__/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data files (large)
+data/
+*.csv
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+.DS_Store
